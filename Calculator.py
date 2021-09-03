@@ -5,7 +5,7 @@ from os import system, name
 from time import sleep
   
 # define our clear function
-def clear():
+def cls():
   
     # for windows
     if name == 'nt':
@@ -22,19 +22,17 @@ print('hello geeks\n'*20)
 sleep(1)
   
 # now call function we defined above
-clear()
-#
-#
+cls()
 #
 # Copied from https://www.geeksforgeeks.org/clear-screen-python/
-#
-#
+# Edited clear() to cls()
+# Makes more sense to me and easier to type#
 #
 
 
-print ('')
+print ("")
 print ('CALCULATOR')
-print ('')
+print ("")
 print ('Press 1 for Addition')
 print ('Press 2 for Subtraction')
 print ('Press ENTER to confirm selection')
@@ -45,16 +43,25 @@ sel = int (input (""))
 
 if sel == 1 or sel == 2:
     if sel == 1:
-        clear()
+        cls()
         print ("")
         print ("ADDITION")
+        print ("")
+        print ("How many digits would you like to add?")
+        
+        poly = int (input (""))
+        
+
     if sel == 2:
-        clear()
+        cls()
         print ("")
         print ('SUBTRACTION')
 
 else:
-    clear()
+    cls()
     print("")
     print ('*UNKNOWN ENTRY, TRY AGAIN*')
+
+
+
     
