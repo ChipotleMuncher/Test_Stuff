@@ -10,6 +10,10 @@ def cls():
     # for windows
     if name == 'nt':
         _ = system('cls')
+        print ("")
+        print ('CALCULATOR')
+        print ("")
+
   
     # for mac and linux(here, os.name is 'posix')
     else:
@@ -29,35 +33,31 @@ cls()
 # Makes more sense to me and easier to type#
 #
 
-print ('Loading.')
+print ('Loading.\n'*5)
 sleep(.2)
 cls()
-print ('Loading..')
+print ('Loading..\n'*5)
 sleep(.2)
 cls()
-print ('Loading...')
+print ('Loading...\n'*5)
 sleep(.2)
 cls()
-print ('Loading....')
+print ('Loading....\n'*5)
 sleep(.2)
 cls()
-print ('Loading.')
+print ('Loading.\n'*5)
 sleep(.2)
 cls()
-print ('Loading..')
+print ('Loading..\n'*5)
 sleep(.2)
 cls()
-print ('Loading...')
+print ('Loading...\n'*5)
 sleep(.2)
 cls()
-print ('Loading....')
+print ('Loading....\n'*5)
 sleep(.2)
 cls()
 
-
-print ("")
-print ('CALCULATOR')
-print ("")
 print ('Press 1 for Addition')
 print ('Press 2 for Subtraction')
 print ('Press ENTER to confirm selection')
@@ -69,25 +69,26 @@ sel = int (input (""))
 if sel == 1 or sel == 2:
     if sel == 1:
         cls()
-        print ("")
         print ("ADDITION")
         print ("")
-        print ("How many digits would you like to add?")
-        
-        poly = int (input (""))
 
-        cls()
+        #x print ("How many digits would you like to add?")
+        #x poly = int (input (""))
+        #x cls()
+        a = int(input('First number ->'))
+        b = int(input('Next number  ->'))
+
+
+
         
         
 
     if sel == 2:
         cls()
-        print ("")
         print ('SUBTRACTION')
 
 else:
     cls()
-    print("")
     print ('*UNKNOWN ENTRY, TRY AGAIN*')
 
 
