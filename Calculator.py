@@ -50,6 +50,9 @@ if sel == 1 or sel == 2:
         print ("How many digits would you like to add?")
         
         poly = int (input (""))
+
+        cls()
+        
         
 
     if sel == 2:
