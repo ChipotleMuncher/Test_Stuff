@@ -16,10 +16,10 @@ def cls():
         _ = system('clear')
   
 # print out some text
-print('hello geeks\n'*20)
+print('hello geeks\n'*200)
   
 # sleep for 2 seconds after printing output
-sleep(1)
+sleep(.000000001)
   
 # now call function we defined above
 cls()
@@ -28,6 +28,31 @@ cls()
 # Edited clear() to cls()
 # Makes more sense to me and easier to type#
 #
+
+print ('Loading.')
+sleep(.2)
+cls()
+print ('Loading..')
+sleep(.2)
+cls()
+print ('Loading...')
+sleep(.2)
+cls()
+print ('Loading....')
+sleep(.2)
+cls()
+print ('Loading.')
+sleep(.2)
+cls()
+print ('Loading..')
+sleep(.2)
+cls()
+print ('Loading...')
+sleep(.2)
+cls()
+print ('Loading....')
+sleep(.2)
+cls()
 
 
 print ("")
