@@ -78,10 +78,8 @@ if sel == 1 or sel == 2:
         a = int(input('First number ->'))
         b = int(input('Next number  ->'))
 
+        print (a,"+",b,"=",a+b)
 
-
-        
-        
 
     if sel == 2:
         cls()
