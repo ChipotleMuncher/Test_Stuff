@@ -30,7 +30,7 @@ cls()
 #
 # Copied from https://www.geeksforgeeks.org/clear-screen-python/
 # Edited clear() to cls()
-# Makes more sense to me and easier to type#
+# Makes more sense to me and easier to type
 #
 
 print ('Loading.\n'*5)
