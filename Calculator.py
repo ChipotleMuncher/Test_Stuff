@@ -6,15 +6,12 @@ from time import sleep
   
 # define our clear function
 def cls():
-  
     # for windows
     if name == 'nt':
         _ = system('cls')
         print ("")
         print ('CALCULATOR')
         print ("")
-
-  
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
