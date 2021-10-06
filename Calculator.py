@@ -19,7 +19,6 @@ def cls():
 # print out some text
 print('hello geeks\n'*200)
   
-# sleep for 2 seconds after printing output
 sleep(.000000001)
   
 # now call function we defined above
